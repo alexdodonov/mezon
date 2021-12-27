@@ -14,7 +14,8 @@
 		"phpunit/phpunit": "^8.5",
 		"phpunit/php-token-stream": "3.1.2",
 		"vimeo/psalm": "^4.2",
-		"infection/infection": "^0.21.5"
+		"infection/infection": "^0.21.5",
+		"phpdocumentor/phpdocumentor": "^3.1"
 	},
 	"require": {
 		"php": ">=7.2.0",
@@ -62,7 +63,8 @@
 		"test": "php ./vendor/phpunit/phpunit/phpunit --testsuit all --order-by=random",
 		"debug": "php ./vendor/phpunit/phpunit/phpunit --testsuit all --order-by=random --random-order-seed 1638566842",
 		"psalm": "php ./vendor/vimeo/psalm/psalm --show-info=true --no-cache",
-		"infection": "php ./vendor/infection/infection/bin/infection"
+		"infection": "php ./vendor/infection/infection/bin/infection",
+		"doc": "php ./vendor/bin/phpdoc.php"
 	},
 	"config": {
 		"process-timeout": 0
