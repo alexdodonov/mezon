@@ -63,7 +63,7 @@
 		"test": "php ./vendor/phpunit/phpunit/phpunit --testsuit all --order-by=random",
 		"debug": "php ./vendor/phpunit/phpunit/phpunit --testsuit all --order-by=random --random-order-seed 1638566842",
 		"psalm": "php ./vendor/vimeo/psalm/psalm --show-info=true --no-cache",
-		"infection": "php ./vendor/infection/infection/bin/infection",
+		"infection": "php ./vendor/infection/infection/bin/infection --min-msi=57",
 		"doc": "php ./vendor/bin/phpdoc.php"
 	},
 	"config": {
