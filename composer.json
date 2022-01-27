@@ -23,7 +23,7 @@
 		"mezon/application": ">=3.0.0",
 		"mezon/application-actions": ">=1.0.4",
 		"mezon/cache": ">=1.0.0",
-		"mezon/cli": ">=1.0.0",
+		"mezon/cli": ">=1.0.6",
 		"mezon/common-application": ">=1.0.0",
 		"mezon/conf": ">=1.2.0",
 		"mezon/crud-service": ">=1.2.0",
@@ -42,7 +42,7 @@
 		"mezon/security": ">=1.1.0",
 		"mezon/service": ">=1.4.0",
 		"mezon/service-client": ">=1.0.0",
-		"mezon/service-transport": ">=1.3.0",
+		"mezon/service-transport": ">=1.5.0",
 		"mezon/singleton": ">=1.0.0",
 		"mezon/social-network": ">=1.0.0",
 		"mezon/template-engine": ">=1.0.0",
@@ -62,7 +62,7 @@
 	},
 	"scripts": {
 		"test": "php ./vendor/phpunit/phpunit/phpunit --testsuit all --order-by=random",
-		"debug": "php ./vendor/phpunit/phpunit/phpunit --testsuit all --order-by=random --random-order-seed 1638566842",
+		"debug": "php ./vendor/phpunit/phpunit/phpunit --testsuit all --order-by=random --random-order-seed 1643146030",
 		"psalm": "php ./vendor/vimeo/psalm/psalm --show-info=true --no-cache",
 		"infection": "php ./vendor/infection/infection/bin/infection --min-msi=57",
 		"doc": "php ./vendor/bin/phpdoc.php"
