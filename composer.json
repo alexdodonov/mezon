@@ -32,6 +32,7 @@
 		"mezon/crud-service-client-adapter": ">=1.0.0",
 		"mezon/custom-client": ">=1.0.0",
 		"mezon/dns-client": ">=1.0.0",
+		"mezon/field": ">=1.1.0",
 		"mezon/formal-grammar": ">=1.0.0",
 		"mezon/functional": ">=1.1.0",
 		"mezon/gentella": ">=1.1.0",
